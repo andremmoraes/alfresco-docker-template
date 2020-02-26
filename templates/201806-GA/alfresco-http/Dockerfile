@@ -4,11 +4,11 @@ FROM alfresco/alfresco-content-repository-community:6.0.7-ga
 RUN echo -e '\n\
 alfresco.host=192.168.10.250\n\
 alfresco.port=443\n\
-alfresco.protocol=https\n\
+alfresco.protocol=http\n\
 \n\
 share.host=192.168.10.250\n\
 share.port=443\n\
-share.protocol=https\n\
+share.protocol=http\n\
 \n\
 ftp.enabled=true\n\
 ftp.port=2121\n\
